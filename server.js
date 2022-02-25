@@ -30,7 +30,7 @@ app.get("/api/whoami", (req, res) => {
   res
     .status(200)
     .json({
-    ipaddress: address.en0[4].address,
+    ipaddress: address.lo0[0].address,
     language: language,
     software: software
   });
